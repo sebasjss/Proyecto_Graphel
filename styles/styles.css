@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background: #f4f4f4;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header, main > nav {
+    background: #23282d;
+    border-bottom: 5px solid #1496d6;
+    height: 95px;
+}
+header h1 {
+    color: white;
+    font-size: 28px;
+    line-height: 90px;
+    float: left;
+}
+header h1 span {
+    color: #1496d6;
+}
+nav {
+    float: right;
+}
+nav li {
+    float: left;
+    margin-left: 36px;
+    line-height: 90px;
+}
+nav a {
+    color: white;
+    font-size: 15px;
+}
+nav a:hover, nav a.activo {
+    color: #1496d6;
+}
+main > header {
+    float: left;
+    width: 50%;
+    padding-left: 10%;
+}
+main > nav {
+    width: 50%;
+    padding-right: 10%;
+}
+main > nav ul {
+    float: right;
+}
+.boletin, #boletin {
+    clear: both;
+    background: #23282d;
+    height: 85px;
+    overflow: hidden;
+}
+#boletin {
+    padding: 0 10%;
+}
+.boletin h2, #boletin h2 {
+    color: white;
+    font-size: 20px;
+    line-height: 85px;
+    padding-left: 10px;
+    float: left;
+}
+.boletin form {
+    float: right;
+    margin-top: 26px;
+}
+#boletin input, #boletin button {
+    float: right;
+    margin-top: 26px;
+}
+.boletin input, #boletin input {
+    width: 237px;
+    height: 32px;
+    border: 1px solid #ccc;
+    padding: 0 4px;
+    font-size: 12px;
+}
+.boletin button, #boletin button {
+    background: #e8491d;
+    color: white;
+    border: none;
+    height: 35px;
+    padding: 0 18px;
+    font-size: 12px;
+    margin-left: 4px;
+}
+.inicio {
+    height: 295px;
+    background: #3c3c3c;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.inicio > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+.inicio .contenedor {
+    position: relative;
+}
+.inicio h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.inicio p {
+    font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
+}
+.caracteristicas {
+    padding: 22px 0 28px 0;
+    text-align: center;
+}
+.caracteristica {
+    float: left;
+    width: 33%;
+    padding: 0 20px;
+}
+.caracteristica img {
+    height: 66px;
+    margin-bottom: 12px;
+}
+.caracteristica h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.caracteristica p {
+    font-size: 12px;
+}
+#contenido {
+    width: 80%;
+    margin: 0 auto;
+    padding: 18px 0 20px 0;
+    overflow: hidden;
+}
+#contenido > section {
+    float: left;
+    width: 65%;
+}
+#contenido h2 {
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+#contenido p {
+    margin-bottom: 12px;
+}
+#texto {
+    background: #37424b;
+    color: white;
+    padding: 12px;
+}
+#contenido > section > img {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+}
+.servicio {
+    background: #e6e6e6;
+    border: 1px solid #ccc;
+    padding: 24px 16px 6px 16px;
+    margin-bottom: 4px;
+}
+.servicio h3 {
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+label {
+    display: block;
+}
+#contenido input, #contenido textarea, #contenido button {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border: 1px solid #555;
+    padding: 0 3px;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+#contenido textarea {
+    height: 115px;
+}
+#contenido button {
+    height: 32px;
+    background: #e8491d;
+    color: white;
+}
+#contenido > #lateral {
+    float: right;
+    width: 30%;
+}
+#lateral h3, #lateral p {
+    background: #37424b;
+    color: white;
+    margin: 0;
+}
+#lateral h3 {
+    font-size: 16px;
+    padding: 28px 14px 14px 14px;
+}
+#lateral p {
+    padding: 0 14px 30px 14px;
+}
+#lateral img {
+    margin-top: 8px;
+}
+footer {
+    clear: both;
+    background: #1496d6;
+    color: white;
+    text-align: center;
+    height: 62px;
+    padding-top: 24px;
+    font-size: 13px;
+}
